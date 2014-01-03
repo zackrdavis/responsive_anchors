@@ -1,0 +1,35 @@
+ul {
+   background-color: gray;
+   display: inline-table;
+   width: 221px;
+   padding: 10px;
+   margin: 0px;
+   list-style: none;
+}
+li {
+   background-color: green;
+   height: 250px;
+   width: 100%;
+   margin: 10px 0 10px 0;
+}
+span {
+   position: absolute;
+}
+.primary li {
+   background-color: red;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+@media (max-width:1000px) {
+   ul {
+      display: block;
+      width: 500px;
+   }
+   .container {
+      width: 500px;
+      margin: 0 auto;
+   }
+}
